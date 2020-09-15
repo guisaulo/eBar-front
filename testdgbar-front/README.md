@@ -35,7 +35,7 @@
     ``` 
     set-executionpolicy remotesigned
     ```
-  - Executar a aplicação e abrir http://localhost:8080/
+  - Executar a api e em seguida executar a aplicação e abrir http://localhost:8080/
     ``` 
     npm run serve
     ```
