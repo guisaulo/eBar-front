@@ -1,13 +1,12 @@
 <template>
   <v-container id="comandas">
-    <v-app>
+    <v-app id="comandas">
     <v-card
       class="mx-auto"
       max-width="300"
       tile
     >
       <v-list dense>
-        <v-subheader>Comandas</v-subheader>
         <v-list-item-group color="primary">
           <v-list-item
             v-for="(comanda, i) in comandas"

@@ -1,14 +1,26 @@
 <template>
-  <v-container id="comandaItem">
-    <p>Selecione uma comanda</p>
-    <Comandas />
+  <v-container id="comandaItem" fluid>    
+    
+    <v-row align="left" style="height:100vh" no-gutters dense>      
 
-    <p>Selecione um item</p>
-    <Items />
+        <v-card flat>
+          <v-card-text>Selecione o Item</v-card-text>
+          <Items />
+        </v-card>
 
-    <v-btn @click="inserirItemComanda(selectedComanda, selectedItem)">Inserir item na comanda</v-btn>
+        <v-card flat>
+          <v-card-text>Seleciona a Comanda</v-card-text>
+          <Comandas />
+        </v-card>
+
+        <v-card flat>
+          <v-btn @click="inserirItemComanda(selectedComanda, selectedItem)">Inserir</v-btn>
+        </v-card>
+          
+    </v-row>
 
     <v-dialog v-model="dialog" max-width="500">{{resposta}}</v-dialog>
+
   </v-container>
 </template>
 

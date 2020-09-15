@@ -1,28 +1,27 @@
 <template>
   <v-container id="notaFiscalComanda">
-    <table>
-        <tr>
-            <th>Item</th>
-            <th>Valor</th>
-        </tr>
-        <tr v-for="(item, i) in NotaFiscal.items" :key="i">
+    <v-simple-table>
+      <template v-slot:default>
+        <thead>
+          <th class="text-left">Item</th>
+          <th class="text-left">Valor</th>
+        </thead>
+        <tbody>
+          <tr v-for="(item, i) in NotaFiscal.items" :key="i">
             <td>{{item.nome}}</td>
             <td>R$ {{item.valor}}</td>
-        </tr>
-
-        <tr>
-            <th>
-             Desconto
-             </th>
-            R$ {{NotaFiscal.desconto}}
-        </tr>
-        <tr>
-            <th>
-             Valor
-             </th>
-            R$ {{NotaFiscal.valorTotal}}
-        </tr>
-    </table>
+          </tr>
+          <tr>
+            <td>Desconto</td>
+            <td>R$ {{NotaFiscal.desconto}}</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>R$ {{NotaFiscal.valorTotal}}</td>
+          </tr>
+        </tbody>
+      </template>
+    </v-simple-table>
     <v-btn @click="resetarComanda">Resetar Comanda</v-btn>
   </v-container>
 </template>

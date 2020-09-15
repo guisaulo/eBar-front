@@ -1,8 +1,6 @@
 <template>
-  <v-container id="registroItemComanda">
-  
-  <ComandaItem />
-   
+  <v-container id="registroItemComanda">  
+  <ComandaItem />   
   </v-container>
 </template>
 

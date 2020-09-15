@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <NavigationBar />
-
     <v-main>
     <RegistroItemComanda v-if="IsPageRegistroItemComanda"/>
     <FechamentoComanda v-if="IsPageFechamentoComanda" />

@@ -7,7 +7,6 @@
       tile
     >
       <v-list dense>
-        <v-subheader>Items</v-subheader>
         <v-list-item-group color="primary">
           <v-list-item
             v-for="(item, i) in items"

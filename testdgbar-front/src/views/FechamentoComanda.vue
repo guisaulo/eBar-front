@@ -1,9 +1,18 @@
 <template>
   <v-container id="fechamentoComanda">
+      <v-row align="left" style="height:100vh" no-gutters dense>      
 
-    <p>Selecione uma comanda</p>
-    <Comandas />
-    <NotaFiscalComanda />
+        <v-card flat>
+          <v-card-text>Seleciona a Comanda</v-card-text>
+          <Comandas />
+        </v-card>
+
+        <v-card flat>
+          <v-card-text>Nota Fiscal</v-card-text>
+          <NotaFiscalComanda />
+        </v-card>
+          
+    </v-row>
 
   </v-container>
 </template>
