@@ -19,6 +19,7 @@
   - **store.js**: Possui o gerenciador de estados da aplicação com Vuex. É basicamente um recipiente centralizado para todos componentes que contém o estado da aplicação, com regras que garante que o estado só é mutado de forma previsivel e reativa.
   
 ### Pontos de melhorias e evolução
+  - Melhorar a estilização do layout da aplicação.
   
 ## Instruções instalação e execução
 
@@ -34,7 +35,7 @@
     ``` 
     set-executionpolicy remotesigned
     ```
-  - Executar a aplicação
+  - Executar a aplicação e abrir http://localhost:8080/
     ``` 
     npm run serve
     ```
