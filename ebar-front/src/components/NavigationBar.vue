@@ -3,7 +3,7 @@
     <v-app-bar app color="orange" dark>   
     
       <div class="white--text mb-2">
-        <h1>Bar do DG</h1>
+        <h1>eBar</h1>
       </div>
        
       <v-btn text @click="setPage(0)">
