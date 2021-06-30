@@ -1,6 +1,4 @@
-# AVALIAÇÃO TÉCNICA DESENVOLVEDOR C#
-
-### Projeto TestDgBar - Front-End
+### Projeto eBar - Front-End
 
 ### Decisões técnicas
   - Pagina web em Vue.js;
