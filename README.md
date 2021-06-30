@@ -42,3 +42,11 @@
   
 ### Pontos de melhorias e evolução
   - Melhorar a estilização do layout da aplicação.
+
+### Descomentar:
+
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    //"axios": "^0.20.0",
